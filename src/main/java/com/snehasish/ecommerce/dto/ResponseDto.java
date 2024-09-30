@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @Builder
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class Response {
+public class ResponseDto {
 
     private int status;
     private String message;

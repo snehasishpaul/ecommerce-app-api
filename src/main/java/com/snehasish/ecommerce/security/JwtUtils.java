@@ -18,7 +18,7 @@ import java.util.function.Function;
 @Service
 @Slf4j
 public class JwtUtils {
-    private static final Long EXPIRATION_TIME_IN_MILLISEC = 1000L * 60L * 5L; //5 minutes expiration
+    private static final Long EXPIRATION_TIME_IN_MILLISEC = 1000L * 60L * 10L; //10 minutes expiration
 
     private SecretKey key;
 
